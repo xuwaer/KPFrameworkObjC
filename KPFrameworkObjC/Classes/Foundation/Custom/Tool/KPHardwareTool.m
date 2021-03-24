@@ -279,7 +279,8 @@
              || kpIsIPhone7
              || kpIsIPhone7p
              || kpIsIPhone8
-             || kpIsIPhone8p);
+             || kpIsIPhone8p
+             || kpIsIPhoneSE2);
 }
 
 @end
