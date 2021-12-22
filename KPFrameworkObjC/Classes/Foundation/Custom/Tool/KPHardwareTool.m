@@ -377,5 +377,8 @@
 + (BOOL)kp_isIPhone12      {return kpIsIPhone12;}
 + (BOOL)kp_isIPhone12Pro   {return kpIsIPhone12Pro;}
 + (BOOL)kp_isIPhone12ProMax     {return kpIsIPhone12ProMax;}
-
++ (BOOL)kp_isIPhone13Mini  {return kpIsIPhone13Mini;}
++ (BOOL)kp_isIPhone13      {return kpIsIPhone13;}
++ (BOOL)kp_isIPhone13Pro   {return kpIsIPhone13Pro;}
++ (BOOL)kp_isIPhone13ProMax     {return kpIsIPhone13ProMax;}
 @end

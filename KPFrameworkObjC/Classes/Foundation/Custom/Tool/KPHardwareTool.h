@@ -76,6 +76,10 @@
 #define kpIsIPhone12      kpScreenMatch(390, 844, 3)
 #define kpIsIPhone12Pro   kpScreenMatch(390, 844, 3)
 #define kpIsIPhone12ProMax      kpScreenMatch(428, 926, 3)
+#define kpIsIPhone13Mini  kpScreenMatch(360, 780, 3)
+#define kpIsIPhone13      kpScreenMatch(390, 844, 3)
+#define kpIsIPhone13Pro   kpScreenMatch(390, 844, 3)
+#define kpIsIPhone13ProMax      kpScreenMatch(428, 926, 3)
 #else
 #define kpIsIPhone1       [[KPHardwareTool deviceType] kp_match:@"^iPhone1,1$"]
 #define kpIsIPhone3G      [[KPHardwareTool deviceType] kp_match:@"^iPhone1,2$"]
@@ -106,6 +110,10 @@
 #define kpIsIPhone12      [[KPHardwareTool deviceType] kp_match:@"^iPhone13,2$"]
 #define kpIsIPhone12Pro   [[KPHardwareTool deviceType] kp_match:@"^iPhone13,3$"]
 #define kpIsIPhone12ProMax  [[KPHardwareTool deviceType] kp_match:@"^iPhone13,4$"]
+#define kpIsIPhone13Mini  [[KPHardwareTool deviceType] kp_match:@"^iPhone14,4$"]
+#define kpIsIPhone13      [[KPHardwareTool deviceType] kp_match:@"^iPhone14,5$"]
+#define kpIsIPhone13Pro   [[KPHardwareTool deviceType] kp_match:@"^iPhone14,2$"]
+#define kpIsIPhone13ProMax  [[KPHardwareTool deviceType] kp_match:@"^iPhone14,3$"]
 #endif
 
 // 判断异形屏，从X开始的以后版本均为异形屏，需要特殊处理
@@ -138,5 +146,14 @@
 + (BOOL)kp_isIPhone11;
 + (BOOL)kp_isIPhone11p;
 + (BOOL)kp_isIPhone11pMax;
++ (BOOL)kp_isIPhoneSE2;
++ (BOOL)kp_isIPhone12Mini;
++ (BOOL)kp_isIPhone12;
++ (BOOL)kp_isIPhone12p;
++ (BOOL)kp_isIPhone12pMax;
++ (BOOL)kp_isIPhone13Mini;
++ (BOOL)kp_isIPhone13;
++ (BOOL)kp_isIPhone13p;
++ (BOOL)kp_isIPhone13pMax;
 
 @end
